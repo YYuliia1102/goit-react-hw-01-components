@@ -10,9 +10,10 @@ body {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding-top: 0;
   text-align: center;
-  width: 300px;
+  width: 330px;
+  margin: auto;
 }
 
 .avatar {
@@ -21,6 +22,7 @@ body {
   height: 150px;
   object-fit: cover;
   margin-bottom: 10px;
+  padding-top: 20px;
 }
 
 .name {
@@ -43,8 +45,10 @@ body {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
   align-items: center;
+  background-color: rgba(128, 0, 128, 0.5);
+  border-radius: 0 0 10px 10px;
 }
 
 .stats li {
@@ -54,7 +58,7 @@ body {
 }
 
 .label {
-  color: #999999;
+  color: beige;
   font-size: 14px;
   margin-bottom: 5px;
 }
